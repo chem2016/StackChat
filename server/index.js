@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const db = require('./db');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8070;
 const app = express();
 const server = app.listen(PORT, () => console.log(`Feeling chatty on port ${PORT}`));
 const io = require('socket.io')(server);

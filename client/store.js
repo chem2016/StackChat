@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import thunkMiddleware from "redux-thunk";
+import {thunkMiddleware} from "redux-thunk";
 // import react from 'react'
 
 const initialState = {
